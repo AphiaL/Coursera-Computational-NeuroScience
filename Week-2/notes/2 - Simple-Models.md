@@ -7,6 +7,12 @@ s(t) -> r(t)
 ```
 ### 2. Temporal filtering
 > in neuroimage, Temporal filtering aims to remove or attenuate frequencies within the raw signal, that are not of interest. This can substantially improve the SNR. The tricky thing is to decide which frequencies are of interest and which are noise.
+> An intuitive way to think of temporal filtering is to imagine that 
+the system is scanning the stimulus wave-form by sliding a 
+window of a certain width/duration along it. The more the 
+stimulus in the window resembles the filter, the more strongly the 
+system will respond. Thus, the system is “looking for” pieces of the 
+stimulus that resemble the filter.
 ![](http://geekresearchlab.net/coursera/neuro/simple-models-1.jpg)<br>
 #### Question:
 Since this is a linear system, 
