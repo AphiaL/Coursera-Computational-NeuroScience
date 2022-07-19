@@ -23,7 +23,8 @@ rho = data['rho']
 
 # Filled in these values
 sampling_period = 2  # in ms
-num_timesteps = 150
+num_timesteps = 150 # 150 elements (time steps) will be in our resulting spike-triggered average vector because we have a 300ms time window 
+# 2 ms between adjacent samples (which is the sampling period)
 
 sta = compute_sta(stim, rho, num_timesteps)
 
