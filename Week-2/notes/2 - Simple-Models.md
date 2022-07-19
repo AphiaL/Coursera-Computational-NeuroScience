@@ -32,7 +32,7 @@ Spatial filtering and retinal receptive fields:
 
 ### 4. Spatiotemporal filtering
 
-![](http://geekresearchlab.net/coursera/neuro/simple-models-4.jpg)
+<br>![](http://geekresearchlab.net/coursera/neuro/simple-models-4.jpg)<br>
 
 #### Question:
 Which of the following inputs might cause a linear system with a positive filter to predict a negative firing rate?
