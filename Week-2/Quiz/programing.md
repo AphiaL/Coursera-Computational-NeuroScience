@@ -58,3 +58,5 @@ Which of these plots most closely matches the spike-triggered average for this d
 > Spike-triggered averaging is also commonly referred to as “reverse correlation″ or “white-noise analysis”. The STA is well known as the first term in the Volterra kernel or Wiener kernel series expansion.[12] It is closely related to linear regression, and identical to it in common circumstances.
 > 
 > "We wish to compute the spike-triggered average for this neuron over a window of width 300 ms." The figure shows the average stimulus preceding a spike in the 300ms time window.
+> 
+> Besides, the reason why we need to set up a time window is that the probability of a spike does not depend on the stimulus at the exact same time– it can’t, because there is some finite response delay, so it has to depend on the stimulus at some time back in the past. But the fact is the probability of a spike depends not just on one time back, but the entire sequence of stimulus values over the recent past. If it depends on the stimulus linearly, then the response is approximately a weighted sum of those recent stimulus values. 
