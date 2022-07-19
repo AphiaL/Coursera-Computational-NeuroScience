@@ -56,3 +56,5 @@ Which of these plots most closely matches the spike-triggered average for this d
 > The STA has been used to characterize retinal ganglion cells,neurons in the lateral geniculate nucleus and simple cells in the striate cortex (V1) . It can be used to estimate the linear stage of the linear-nonlinear-Poisson (LNP) cascade model. The approach has also been used to analyze how transcription factor dynamics control gene regulation within individual cells.
 > 
 > Spike-triggered averaging is also commonly referred to as “reverse correlation″ or “white-noise analysis”. The STA is well known as the first term in the Volterra kernel or Wiener kernel series expansion.[12] It is closely related to linear regression, and identical to it in common circumstances.
+> 
+> "We wish to compute the spike-triggered average for this neuron over a window of width 300 ms." The figure shows the average stimulus preceding a spike in the 300ms time window.
