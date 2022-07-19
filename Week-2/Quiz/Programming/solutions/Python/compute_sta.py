@@ -20,7 +20,7 @@ def compute_sta(stim, rho, num_timesteps):
     Returns:
         spike-triggered average for num_timesteps timesteps before spike"""
 
-    sta = np.zeros((num_timesteps,))
+    sta = np.zeros((num_timesteps,)) #np.array will return a new array of given shape and type, filled with zeros.
 
     # This command finds the indices of all of the spikes that occur
     # after 300 ms into the recording.
@@ -28,7 +28,7 @@ def compute_sta(stim, rho, num_timesteps):
 
     # Fill in this value. Note that you should not count spikes that occur
     # before 300 ms into the recording.
-    num_spikes = len(spike_times)
+    num_spikes = len(spike_times) #calculating the number of spikes, which equals to the number of all the 300ms windows
     print(num_spikes)
     # Compute the spike-triggered average of the spikes found.
     # To do this, compute the average of all of the vectors
@@ -41,6 +41,6 @@ def compute_sta(stim, rho, num_timesteps):
     # Your code goes here.
     for i in range(num_spikes):
         windows = stim[(spike_times[i] - num_timesteps):spike_times[i]]
-        sta = sta+windows
-    sta = sta/num_spikes
+        sta = sta+windows #sum up all the stimulus in the 300ms window preceidng a spike
+    sta = sta/num_spikes #calculating average sta
     return sta
