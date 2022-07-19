@@ -28,7 +28,7 @@ Examples of temporal filtering:
 ### 3. Spatial filtering
 Hint: Apply temporal filtering to the time
 > Spatial filtering is a process by which we can alter properties of an optical image by selectively removing certain spatial frequencies that make up an object, for example, filtering video data received from satellite and space probes, or removal of raster from a television picture or scanned image. In digital image processing, the term image refers to a two-dimensional light-intensity function, where amplitude at spatial coordinates (x,y) gives the intensity (brightness) of the image at that point.
-![](http://geekresearchlab.net/coursera/neuro/simple-models-2.jpg)<br>
+<br>![](http://geekresearchlab.net/coursera/neuro/simple-models-2.jpg)<br>
 Spatial filtering and retinal receptive fields:
 [1] <a href="http://en.wikibooks.org/wiki/Sensory_Systems/Visual_System#Signal_Processing">WikiBooks</a><br>
 [2] <a href="http://docs.gimp.org/2.6/en/plug-in-dog.html">Spatial Filtering</a><br>
