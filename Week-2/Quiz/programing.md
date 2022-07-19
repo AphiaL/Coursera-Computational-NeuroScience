@@ -49,9 +49,6 @@ Which of these plots most closely matches the spike-triggered average for this d
 
 > what is spike-triggered average?
 > The spike-triggered average (STA) is a tool for characterizing the response properties of a neuron using the spikes emitted in response to a time-varying stimulus. The STA provides an estimate of a neuron's linear receptive field. It is a useful technique for the analysis of electrophysiological data.
-
-Mathematically, the STA is the average stimulus preceding a spike. To compute the STA, the stimulus in the time window preceding each spike is extracted, and the resulting (spike-triggered) stimuli are averaged (see diagram). The STA provides an unbiased estimate of a neuron's receptive field only if the stimulus distribution is spherically symmetric (e.g., Gaussian white noise).
-
-The STA has been used to characterize retinal ganglion cells,neurons in the lateral geniculate nucleus and simple cells in the striate cortex (V1) . It can be used to estimate the linear stage of the linear-nonlinear-Poisson (LNP) cascade model. The approach has also been used to analyze how transcription factor dynamics control gene regulation within individual cells.
-
-Spike-triggered averaging is also commonly referred to as “reverse correlation″ or “white-noise analysis”. The STA is well known as the first term in the Volterra kernel or Wiener kernel series expansion.[12] It is closely related to linear regression, and identical to it in common circumstances.
+> Mathematically, the STA is the average stimulus preceding a spike. To compute the STA, the stimulus in the time window preceding each spike is extracted, and the resulting (spike-triggered) stimuli are averaged (see diagram). The STA provides an unbiased estimate of a neuron's receptive field only if the stimulus distribution is spherically symmetric (e.g., Gaussian white noise).
+> The STA has been used to characterize retinal ganglion cells,neurons in the lateral geniculate nucleus and simple cells in the striate cortex (V1) . It can be used to estimate the linear stage of the linear-nonlinear-Poisson (LNP) cascade model. The approach has also been used to analyze how transcription factor dynamics control gene regulation within individual cells.
+> Spike-triggered averaging is also commonly referred to as “reverse correlation″ or “white-noise analysis”. The STA is well known as the first term in the Volterra kernel or Wiener kernel series expansion.[12] It is closely related to linear regression, and identical to it in common circumstances.
