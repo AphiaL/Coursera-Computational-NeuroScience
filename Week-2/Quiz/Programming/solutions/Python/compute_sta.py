@@ -13,7 +13,12 @@ def compute_sta(stim, rho, num_timesteps):
     """Compute the spike-triggered average from a stimulus and spike-train.
 
     Args:
-        stim: stimulus time-series
+        stim: stimulus time-series. 
+        notive that The stimulus you have been provided with is the velocity of a random 
+        bar pattern like this that moves back and forth on a screen in front of the fly. 
+        The stimulus is created by choosing a random velocity (either positive or negative) every 2 milliseconds. 
+        The screen then moves with that velocity for 2 ms. This is an example of a “white noise” stimulus. 
+        
         rho: spike-train time-series
         num_timesteps: how many timesteps to use in STA
 
