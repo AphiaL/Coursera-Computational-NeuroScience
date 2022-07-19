@@ -32,8 +32,8 @@ Hint: Apply temporal filtering to the time
 Spatial filtering and retinal receptive fields:
 [1] <a href="http://en.wikibooks.org/wiki/Sensory_Systems/Visual_System#Signal_Processing">WikiBooks</a><br>
 [2] <a href="http://docs.gimp.org/2.6/en/plug-in-dog.html">Spatial Filtering</a><br>
-<br>
-![](http://geekresearchlab.net/coursera/neuro/simple-models-3.jpg)<br>
+
+<br>![](http://geekresearchlab.net/coursera/neuro/simple-models-3.jpg)<br>
 
 ### 4. Spatiotemporal filtering
 
